@@ -9,6 +9,7 @@ import javax.swing.*;
 	 
 	 panel FatherPanel;
 	 ImageIcon image1;
+	 ImageIcon image2;
 	 int num;
 	 int turned = 0;
 	
@@ -21,7 +22,11 @@ import javax.swing.*;
 	    String Path;
 	    
 	    public Objects() {
-	    	
+	    
+	    	this.setVisible(true);
+	    	this.setSize(500,50);
+	    	this.setText("Start Game");
+	    	this.setBackground(Color.green);
 	    }
 public Objects(String path, String oben, String unten, String rechts, String links, int n){
 	super();
